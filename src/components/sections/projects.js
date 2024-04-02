@@ -92,7 +92,7 @@ const StyledProject = styled.li`
       display: flex;
       align-items: center;
       margin-right: -10px;
-      color: var(--light-slate);
+      color: var(--light-yellow);
 
       a {
         ${({ theme }) => theme.mixins.flexCenter};
@@ -116,7 +116,7 @@ const StyledProject = styled.li`
 
   .project-title {
     margin: 0 0 10px;
-    color: var(--lightest-slate);
+    color: var(--lightest-yellow);
     font-size: var(--fz-xxl);
 
     a {
@@ -136,7 +136,7 @@ const StyledProject = styled.li`
   }
 
   .project-description {
-    color: var(--light-slate);
+    color: var(--light-yellow);
     font-size: 17px;
 
     a {

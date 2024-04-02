@@ -9,7 +9,7 @@ const prismColors = {
   yellow: `#ffd580`,
   orange: `#ffae57`,
   red: `#ef6b73`,
-  grey: `#a2aabc`,
+  gray: `#a2aabc`,
   comment: `#8695b799`,
 };
 
@@ -22,7 +22,7 @@ const PrismStyles = css`
   */
   .gatsby-highlight {
     background-color: ${prismColors.bg};
-    color: ${prismColors.grey};
+    color: ${prismColors.gray};
     border-radius: var(--border-radius);
     margin: 2em 0;
     padding: 1.25em;
@@ -68,7 +68,7 @@ const PrismStyles = css`
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     background-color: ${prismColors.bg};
-    color: ${prismColors.grey};
+    color: ${prismColors.gray};
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
     border-bottom: 1px solid ${prismColors.lineHighlight};
@@ -168,7 +168,7 @@ const PrismStyles = css`
     color: ${prismColors.comment};
   }
   .token.punctuation {
-    color: ${prismColors.grey};
+    color: ${prismColors.gray};
   }
   .token.namespace,
   .token.deleted {
