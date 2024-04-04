@@ -23,7 +23,7 @@
 
 </div>
 
-<!-- ![demo](https://raw.githubusercontent.com/pycoder2000/portfolio-v4/main/src/images/demo.png) -->
+<!-- ![demo](https://raw.githubusercontent.com/pycoder2000/portfolio/main/src/images/demo.png) -->
 
 ## 🛠 Installation & Set Up
 
