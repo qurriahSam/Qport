@@ -1,15 +1,13 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Upload'
+cover: './upload.png'
+github: 'https://github.com/qurriahSam/uploa-d'
+external: 'https://uploa-d.vercel.app/'
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Angular
+  - Angular Material
+  - Firebase
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A user-friendly Image Uploader application designed to make image sharing a breeze. Add images by simply dragging and dropping or selecting one from your local folder.Once uploaded, you can instantly view it and easily copy the image for sharing or other purposes.
