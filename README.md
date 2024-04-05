@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  This is my personal portfolio website hosted <a href="https://parthdesai.vercel.app/" target="_blank">here</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>
+  This is my personal portfolio website hosted <a href="https://parthdesai.vercel.app/" target="_blank">here</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com" target="_blank">Netlify</a>
 </p>
 
 <p align="center">
