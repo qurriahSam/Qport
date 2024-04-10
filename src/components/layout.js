@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
@@ -13,6 +13,33 @@ const StyledContent = styled.div`
 const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
   const [isLoading, setIsLoading] = useState(isHome);
+  const [bgColor, setBgColor] = useState('var(--gray)');
+  const [left, setLeft] = useState(0);
+  const [top, setTop] = useState(0);
+
+  const boxRef = useRef(null);
+
+  const onMouseMoveHandler = e => {
+    const originalColor = 'var(--gray)';
+    const lightColor = 'var(--green-tint)';
+    const gradientSize = 600;
+
+    setLeft(boxRef.current?.offsetLeft ?? 0);
+    const x = e.pageX - left;
+
+    setTop(boxRef.current?.offsetTop ?? 0);
+    const y = e.pageY - top;
+
+    const xy = `${x} ${y}`;
+
+    setBgColor(
+      `-webkit-gradient(radial, ${xy}, 0, ${xy}, ${gradientSize}, from(${lightColor}), to(rgba(255,255,255,0.0))), ${originalColor}`,
+    );
+  };
+
+  const onMouseLeaveHandler = () => {
+    setBgColor('var(--gray)');
+  };
 
   // Sets target="_blank" rel="noopener noreferrer" on external links
   const handleExternalLinks = () => {
@@ -61,7 +88,11 @@ const Layout = ({ children, location }) => {
           {isLoading && isHome ? (
             <Loader finishLoading={() => setIsLoading(false)} />
           ) : (
-            <StyledContent>
+            <StyledContent
+              style={{ background: bgColor }}
+              ref={boxRef}
+              onMouseMove={e => onMouseMoveHandler(e)}
+              onMouseLeave={onMouseLeaveHandler}>
               <Nav isHome={isHome} />
               <Social isHome={isHome} />
               <Email isHome={isHome} />

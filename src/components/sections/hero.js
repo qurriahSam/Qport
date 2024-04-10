@@ -30,6 +30,10 @@ const StyledHeroSection = styled.section`
     }
   }
 
+  h2 {
+    color: var(--white);
+  }
+
   h3 {
     margin-top: 5px;
     color: var(--yellow);

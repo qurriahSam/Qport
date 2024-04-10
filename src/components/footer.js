@@ -105,9 +105,15 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          <div>Designed &amp; Built by Brittany Chiang</div>
-        </a>
+        <div>
+          <div>
+            Modded by
+            <a href="https://github.com/qurriahSam/Qport">Sam Kuria</a>
+          </div>
+          <div>
+            Thanks<a href="https://github.com/bchiang7/v4"> Brittany </a>for the build.
+          </div>
+        </div>
       </StyledCredit>
     </StyledFooter>
   );

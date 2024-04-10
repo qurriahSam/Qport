@@ -8,9 +8,9 @@ const variables = css`
     --lightest-navy: #555555;
     --navy-shadow: rgba(13, 13, 13, 0.7);
     --dark-yellow: #495670;
-    --yellow: #ccd498;
+    --yellow: #e0ea9a;
     --light-yellow: #e2e7c8;
-    --lightest-yellow: #ccd6f6;
+    --lightest-yellow: #ccd498;
     --white: #e6f1ff;
     --green: #72ff64;
     --green-tint: rgba(114, 255, 100, 0.1);
