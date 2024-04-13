@@ -108,7 +108,7 @@ const Footer = () => {
         <div>
           <div>
             Modded by
-            <a href="https://github.com/qurriahSam/Qport">Sam Kuria</a>
+            <a href="https://github.com/qurriahSam/Qport">Sam Kuria</a>2024.
           </div>
           <div>
             Thanks<a href="https://github.com/bchiang7/v4"> Brittany </a>for the build.
