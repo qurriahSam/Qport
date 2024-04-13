@@ -6,7 +6,7 @@ external: ''
 tech:
   - MQL5
 company:
-showInProjects: true
+showInProjects: false
 ---
 
 Trading expert advisor bot for metatrader 5

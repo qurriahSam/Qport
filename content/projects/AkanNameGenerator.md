@@ -4,9 +4,10 @@ title: 'Akan Name Generator'
 github: 'https://github.com/qurriahSam/akanNameGenerator'
 external: 'https://qurriahsam.github.io/akanNameGenerator/'
 tech:
-  - React
-  - TypeScript
-  - Stats Perform API
+  - HTML
+  - CSS
+  - Bootstrap
+  - Jquery
 company: ''
 showInProjects: false
 ---

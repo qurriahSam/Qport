@@ -1,5 +1,5 @@
 ---
-date: '2022-2-01'
+date: '2022-02-01'
 title: 'Insurance Website'
 github: 'https://github.com/qurriahSam/insuarance-website'
 external: 'https://qurriahsam.github.io/insuarance-website/'

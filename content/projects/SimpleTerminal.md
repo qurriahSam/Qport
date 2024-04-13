@@ -1,6 +1,6 @@
 ---
 date: '2023-10-16'
-title: 'simple terminal'
+title: 'Simple Terminal'
 github: 'https://github.com/qurriahSam/st'
 external: 'https://github.com/qurriahSam/st'
 tech:

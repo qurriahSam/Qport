@@ -1,5 +1,5 @@
 ---
-date: '2017-04-03'
+date: '2022-02-02'
 title: 'Burger Palace'
 github: 'https://github.com/qurriahSam/burgerPalaceLanding'
 external: 'https://qurriahsam.github.io/burgerPalaceLanding/'
