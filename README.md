@@ -21,6 +21,12 @@
 ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
+
+</div>
+<div align="center">
+  
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/e0372819-6c0b-4e05-8703-c323836f60b2/deploy-status)](https://app.netlify.com/sites/samkuria/deploys)
+  
 </div>
 
 <!-- ![demo](https://raw.githubusercontent.com/pycoder2000/portfolio-v4/main/src/images/demo.png) -->
