@@ -135,7 +135,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi! I'm Sam, a software developer from Kenya, proficient in a diverse range of
+              Hi! I'm Sam Kuria, a software developer proficient in a diverse range of
               technologies such as Angular, NodeJs and ReactJs. My objective is to secure a Software
               Engineering (SWE) role.
             </p>
