@@ -107,11 +107,7 @@ const Footer = () => {
       <StyledCredit tabindex="-1">
         <div>
           <div>
-            Modded by
-            <a href="https://github.com/qurriahSam/Qport">Sam Kuria</a>2024.
-          </div>
-          <div>
-            Thanks<a href="https://github.com/bchiang7/v4"> Brittany </a>for the build.
+            <a href="https://github.com/qurriahSam">Sam Kuria</a>2026.
           </div>
         </div>
       </StyledCredit>
